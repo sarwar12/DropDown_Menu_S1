@@ -1,0 +1,90 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+
+}
+/*Navbar Start*/
+.navbar {
+	width: 100%;
+	background: #6699cc;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),  0 2px 10px 0 rgba(0,0,0,0.12);
+}
+ul {
+	text-align: left;
+	list-style: none;
+	display: inline;
+}
+ul li {
+	font: bold 12px/18px sans-serif;
+	display: inline-block;
+	position: relative;
+	padding: 25px 20px;
+	background: #6699cc;
+}
+ul li a {
+	text-decoration: none;
+	padding: 25px 20px;
+	color: #fff;
+	font-size: 18px;
+}
+ul li a:hover{
+	background: #4dd0e1;
+	color: #fff;
+}
+ul li ul {
+	position: absolute;
+	top: 70px;
+	left: 0;
+	width: 255px;
+	display: none;
+	visibility: hidden;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+ul li ul li {
+	background: #00acc1;
+	display: block;
+}
+ul li ul li:hover{
+	background: #4dd0e1;
+}
+ul li:hover ul{
+	display:block;
+	opacity: 1;
+	visibility:visible;
+}
+/*Navbar close*/
+
+/*main_content*/
+.main_content{}
+.part1 {
+	float: left;
+	width: 50%;
+	margin-top: 20px;
+}
+.part1 h1 {
+	color: #e2e2e2;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.part1 p {
+	text-align: justify;
+	margin-left: 10px;
+	font-family: agency fb;
+	color: #283693;
+	margin-bottom: 25px;
+}
+.part1 a {
+	background: #4dd;
+	padding: 15px 20px;
+	border-radius: 10px;
+	margin-left: 10px;
+	margin-top: 50px;
+	display: block;
+	text-decoration: none;
+	color: #000;
+	cursor: context-menu;
+	text-align: center;
+}
